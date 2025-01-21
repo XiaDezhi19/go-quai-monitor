@@ -1,0 +1,7 @@
+lark:
+  webhook_url: "https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxx"  # 飞书机器人 webhook 地址
+
+monitor:
+  node_url: "http://example.com/node"        # 需要监控的节点地址
+  local_url: "http://localhost:8080"         # 本地服务地址
+  check_interval: 60                         # 检查间隔时间(单位：min)
